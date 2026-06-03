@@ -39,60 +39,14 @@ Generated files are intentionally ignored:
 - `.env`
 - Python cache folders
 
-## Setup
 
-1. Create and activate a virtual environment:
 
-```powershell
-python -m venv .venv
-.\.venv\Scripts\activate
-```
 
-2. Install dependencies:
 
-```powershell
-pip install -r requirements.txt
-```
 
-3. Install FFmpeg and make sure it is available on PATH:
 
-```powershell
-winget install Gyan.FFmpeg
-```
 
-Restart the terminal after installing FFmpeg.
 
-4. Create `.env` from `.env.example` and fill in your keys:
-
-```powershell
-copy .env.example .env
-```
-
-Required for summarization, extraction, and chat:
-
-```text
-MISTRAL_API_KEY=
-```
-
-Optional:
-
-```text
-WHISPER_MODEL=small
-SARVAM_API_KEY=
-SARVAM_STT_MODEL=saraas:v2.5
-HUGGINGFACEHUB_API_TOKEN=
-```
-
-## Run the Streamlit App
-
-```powershell
-streamlit run app.py
-```
-
-## Run the CLI Pipeline
-
-```powershell
-python main.py
 ```
 
 Then paste a YouTube URL or local file path when prompted.
