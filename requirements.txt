@@ -1,0 +1,12 @@
+langchain-chroma
+langchain-core
+langchain-huggingface
+langchain-mistralai
+langchain-text-splitters
+openai-whisper
+pydub
+python-dotenv
+sentence-transformers
+streamlit
+torchvision
+yt-dlp
