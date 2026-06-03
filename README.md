@@ -1,6 +1,8 @@
-# Video Agent
+# Meeting Copilot
 
-Video Agent is a Streamlit app that downloads or accepts an audio/video file, transcribes it with Whisper, summarizes the transcript with Mistral, extracts decisions and open questions, and lets you chat with the transcript through a Chroma-backed RAG pipeline.
+Turn hours of meetings into minutes of insights. Transcribe, summarize, chat, and uncover key decisions with AI.
+
+Meeting Copilot is a Streamlit app that downloads or accepts an audio/video file, transcribes it with Whisper, summarizes the transcript with Mistral, extracts decisions and open questions, and lets you chat with the transcript through a Chroma-backed RAG pipeline.
 
 ## Features
 
@@ -14,7 +16,7 @@ Video Agent is a Streamlit app that downloads or accepts an audio/video file, tr
 ## Project Structure
 
 ```text
-video-agent/
+Meeting_Copilot/
 ├── app.py                 # Streamlit UI
 ├── main.py                # CLI pipeline
 ├── requirements.txt       # Python dependencies
